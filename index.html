@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathéo PICHOT-MOÏSE | Étudiant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Menu Burger -->
+    <nav class="navbar">
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#bienvenue">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <!-- Section Bienvenue -->
+      <section class="section" id="bienvenue">
+        <div class="welcome-content">
+          <h1>Bienvenue sur mon Portfolio</h1>
+          <p>
+            Je suis Mathéo PICHOT-MOÏSE, étudiant en 1ère année de BUT
+            Informatique.
+          </p>
+          <p>
+            Découvrez mon parcours, mes projets, et contactez-moi pour toute
+            collaboration.
+          </p>
+          <a href="#section3" class="btn">Voir mes projets</a>
+        </div>
+      </section>
+
+      <!-- Section À propos -->
+      <section class="section" id="apropos">
+        <h1>À propos de moi</h1>
+        <div class="about-content">
+          <ul class="info-list">
+            <li><strong>Nom :</strong> Mathéo PICHOT-MOÏSE</li>
+            <li><strong>Email :</strong> Matheo.PICHOT-MOISE@etu.uca.fr</li>
+            <li><strong>Localisation :</strong> Clermont-Ferrand, France</li>
+            <li><strong>Formation :</strong> BUT Informatique (1ère année)</li>
+          </ul>
+          <p>
+            Je suis un étudiant passionné par le développement informatique et
+            la résolution de problèmes techniques.<br />Mon parcours en BUT
+            Informatique m’a permis de développer mes compétences dans des
+            domaines variés tels que le développement web, la programmation et
+            les bases de données.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section Projets -->
+      <section class="section" id="projets">
+        <h1>Mes Projets</h1>
+        <div class="projects">
+          <!-- Projet 1 -->
+          <div class="project">
+            <h2>Gestionnaire de tâches</h2>
+            <p>Application web permettant de gérer des tâches quotidiennes.</p>
+            <a href="#" class="btn-project" data-project="1">Voir le projet</a>
+
+            <!-- Pop-up -->
+            <div class="popup" id="popup-1">
+              <div class="popup-content">
+                <h2>Gestionnaire de tâches</h2>
+                <p>
+                  Ce gestionnaire de tâches offre une interface intuitive pour
+                  organiser vos tâches. Les principales fonctionnalités incluent
+                  :
+                </p>
+                <ul>
+                  <li>Ajout, édition et suppression de tâches.</li>
+                  <li>Classement par priorité.</li>
+                  <li>Notifications automatiques.</li>
+                </ul>
+                <button class="close-popup">Fermer</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 -->
+          <div class="project">
+            <h2>Site de Portfolio</h2>
+            <p>
+              Création de ce site pour présenter mes compétences et projets.
+            </p>
+            <a href="#" class="btn-project" data-project="2">Voir le projet</a>
+
+            <!-- Pop-up -->
+            <div class="popup" id="popup-2">
+              <div class="popup-content">
+                <h2>Site de Portfolio</h2>
+                <p>
+                  Ce portfolio est un site vitrine conçu pour afficher mes
+                  compétences, expériences et projets. Il inclut :
+                </p>
+                <ul>
+                  <li>Une interface responsive et moderne.</li>
+                  <li>Des sections dédiées à chaque type de contenu.</li>
+                  <li>
+                    Intégration avec mon GitHub pour suivre mes projets récents.
+                  </li>
+                </ul>
+                <button class="close-popup">Fermer</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 3 -->
+          <div class="project">
+            <h2>Analyseur de données Python</h2>
+            <p>
+              Script Python pour analyser et visualiser des données
+              statistiques.
+            </p>
+            <a href="#" class="btn-project" data-project="3">Voir le projet</a>
+
+            <!-- Pop-up -->
+            <div class="popup" id="popup-3">
+              <div class="popup-content">
+                <h2>Analyseur de données Python</h2>
+                <p>
+                  Un outil puissant pour traiter et visualiser des données
+                  complexes, avec les fonctionnalités suivantes :
+                </p>
+                <ul>
+                  <li>Lecture et traitement de fichiers CSV.</li>
+                  <li>Génération de graphiques interactifs.</li>
+                  <li>Statistiques descriptives et calculs avancés.</li>
+                </ul>
+                <button class="close-popup">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section CV -->
+      <section class="section" id="cv">
+        <h1>Mon CV</h1>
+        <p>
+          Découvrez mon parcours académique et professionnel en téléchargeant
+          mon CV.
+        </p>
+        <a href="CV_PICHOT-MOISE_Matheo.pdf" download class="btn"
+          >Télécharger mon CV</a
+        >
+      </section>
+
+      <!-- Section Contact -->
+      <section class="section" id="contact">
+        <h1>Contactez-moi</h1>
+        <p>Envoyez-moi un message pour toute question ou collaboration.</p>
+        <form id="contact-form">
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+          <textarea placeholder="Votre message" rows="5" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+        <a href="https://github.com/KucoDEV" target="_blank"
+          >Consultez mon GitHub</a
+        >
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
