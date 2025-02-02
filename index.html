@@ -3,175 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mathéo PICHOT-MOÏSE | Étudiant</title>
+    <title>Mathéo PICHOT-MOÏSE</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   </head>
   <body>
-    <!-- Menu Burger -->
-    <nav class="navbar">
-      <div class="menu-toggle" id="menu-toggle">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#bienvenue">Accueil</a></li>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-    <div class="container">
-      <!-- Section Bienvenue -->
-      <section class="section" id="bienvenue">
-        <div class="welcome-content">
-          <h1>Bienvenue sur mon Portfolio</h1>
-          <p>
-            Je suis Mathéo PICHOT-MOÏSE, étudiant en 1ère année de BUT
-            Informatique.
-          </p>
-          <p>
-            Découvrez mon parcours, mes projets, et contactez-moi pour toute
-            collaboration.
-          </p>
-          <a href="#projets" class="btn">Voir mes projets</a>
-        </div>
-      </section>
-
-      <!-- Section À propos -->
-      <section class="section" id="apropos">
-        <h1>À propos de moi</h1>
-        <div class="about-content">
-          <ul class="info-list">
-            <li><strong>Nom :</strong> Mathéo PICHOT-MOÏSE</li>
-            <li><strong>Email :</strong> Matheo.PICHOT-MOISE@etu.uca.fr</li>
-            <li><strong>Localisation :</strong> Clermont-Ferrand, France</li>
-            <li><strong>Formation :</strong> BUT Informatique (1ère année)</li>
-          </ul>
-          <p>
-            Je suis un étudiant passionné par le développement informatique et
-            la résolution de problèmes techniques.<br />Mon parcours en BUT
-            Informatique m’a permis de développer mes compétences dans des
-            domaines variés tels que le développement web, la programmation et
-            les bases de données.
-          </p>
-        </div>
-      </section>
-
-      <!-- Section Projets -->
-      <section class="section" id="projets">
-        <h1>Mes Projets</h1>
-        <div class="projects">
-          <!-- Projet 1 -->
-          <div class="project">
-            <h2>[ 📦 My Box ]</h2>
-            <p><strong>My Box</strong> is a completly free and open source web server who is here te help you organize your notes</p>
-            <a href="#" class="btn-project" data-project="1">Voir le projet</a>
-
-            <!-- Pop-up -->
-            <div class="popup" id="popup-1">
-              <div class="popup-content">
-                <h2>[ 📦 My Box ]</h2>
-                <p>
-                  [ 📦 My Box ] est une application web permettant aux utilisateurs de créer, sauvegarder et consulter leurs notes en ligne. Ce projet est conçu pour offrir une expérience fluide et minimaliste avec un éditeur Markdown et une interface moderne.
-                </p>
-                <ul>
-                  <li>📄 Création de notes</li>
-                  <li>💾 Sauvegarde automatique</li>
-                  <li>🔍 Gestion des notes</li>
-                  <li>❌ Suppression de notes</li>
-                  <li>🌐 Interface responsive et moderne</li>
-                </ul>
-                <button class="close-popup">Fermer</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Projet 2 -->
-          <div class="project">
-            <h2>OratisAI</h2>
-            <p>
-              <strong>Oratis</strong> est une ASR (Automatic Speech Recognition) Pipeline développer en Python
-            </p>
-            <a href="#" class="btn-project" data-project="2">Voir le projet</a>
-
-            <!-- Pop-up -->
-            <div class="popup" id="popup-2">
-              <div class="popup-content">
-                <h2>OratisAI</h2>
-                <p>
-                  Oratis est une pipeline complet pour la reconnaissance vocale automatique (ASR). Le projet implémente les étapes clés nécessaires pour convertir des fichiers audio en texte
-                </p>
-                <ul>
-                  <li>Prétraitement des fichiers audio</li>
-                  <li>Extraction des caractéristiques (MFCCs)</li>
-                  <li>Entraînement d'un modèle basé sur un LSTM</li>
-                  <li>Décodage pour générer des transcriptions</li>
-                  <li>Évaluation des résultats</li>
-                </ul>
-                <button class="close-popup">Fermer</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Projet 3 -->
-          <div class="project">
-            <h2>Analyseur de données Python</h2>
-            <p>
-              Script Python pour analyser et visualiser des données
-              statistiques.
-            </p>
-            <a href="#" class="btn-project" data-project="3">Voir le projet</a>
-
-            <!-- Pop-up -->
-            <div class="popup" id="popup-3">
-              <div class="popup-content">
-                <h2>Analyseur de données Python</h2>
-                <p>
-                  Un outil puissant pour traiter et visualiser des données
-                  complexes, avec les fonctionnalités suivantes :
-                </p>
-                <ul>
-                  <li>Lecture et traitement de fichiers CSV.</li>
-                  <li>Génération de graphiques interactifs.</li>
-                  <li>Statistiques descriptives et calculs avancés.</li>
-                </ul>
-                <button class="close-popup">Fermer</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section CV -->
-      <section class="section" id="cv">
-        <h1>Mon CV</h1>
-        <p>
-          Découvrez mon parcours académique et professionnel en téléchargeant
-          mon CV.
-        </p>
-        <a href="CV_PICHOT-MOISE_Matheo.pdf" download class="btn"
-          >Télécharger mon CV</a
-        >
-      </section>
-
-      <!-- Section Contact -->
-      <section class="section" id="contact">
-        <h1>Contactez-moi</h1>
-        <p>Envoyez-moi un message pour toute question ou collaboration.</p>
-        <form id="contact-form">
-          <input type="text" placeholder="Votre nom" required />
-          <input type="email" placeholder="Votre email" required />
-          <textarea placeholder="Votre message" rows="5" required></textarea>
-          <button type="submit">Envoyer</button>
-        </form>
-        <a href="https://github.com/KucoDEV" target="_blank"
-          >Consultez mon GitHub</a
-        >
-      </section>
+    <canvas id="bg"></canvas>
+    <div class="content">
+      <h1 class="title">Bienvenue dans mon univers</h1>
+      <p class="subtitle" id="welcome-subtitle">
+        Découvrez des créations captivantes et innovantes
+      </p>
+      <button id="explore">Explorer</button>
     </div>
+
+    <section class="section" id="about">
+      <h1 class="title">À propos de moi</h1>
+      <p class="subtitle">
+        Je suis un développeur passionné par les expériences interactives et le
+        design innovant.
+      </p>
+      <p class="subtitle">
+        Avec plusieurs années d'expérience, je maîtrise les technologies
+        modernes et aime relever des défis techniques.
+      </p>
+      <div class="skills">
+        <div class="skill-card">
+          <h3>Python</h3>
+          <p>Développement backend, scripting et analyse de données.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Web (HTML, CSS, JS, PHP)</h3>
+          <p>Création de sites web modernes, interactifs et performants.</p>
+        </div>
+        <div class="skill-card">
+          <h3>SQL</h3>
+          <p>Conception et gestion de bases de données relationnelles.</p>
+        </div>
+        <div class="skill-card">
+          <h3>C / C++ / C#</h3>
+          <p>Programmation système, logiciels et jeux vidéo.</p>
+        </div>
+      </div>
+      <br />
+      <button id="continue">Découvrir mes projets</button>
+    </section>
+
+    <section class="section" id="projects">
+      <h1 class="title">Mes Projets</h1>
+      <p class="subtitle">
+        Plongez dans les détails captivants de mes réalisations.
+      </p>
+      <div class="project-list">
+        <div class="project-card" data-project="1">
+          <h3>[ 📦 My Box ]</h3>
+          <p>Application web minimaliste pour gérer des notes en ligne.</p>
+        </div>
+        <div class="project-card" data-project="2">
+          <h3>OratisAI</h3>
+          <p>
+            Pipeline complet pour la reconnaissance vocale automatique (ASR).
+          </p>
+        </div>
+        <div class="project-card" data-project="3">
+          <h3>Projet 3</h3>
+          <p>Mettre projet 3 ici...</p>
+        </div>
+        <div class="project-card" data-project="4">
+          <h3>Projet 4</h3>
+          <p>Mettre projet 4 ici...</p>
+        </div>
+      </div>
+      <div class="project-details" id="project-details">
+        <h2 id="project-title">Détails du Projet</h2>
+        <ul id="project-info"></ul>
+        <a id="project-link" href="#" target="_blank">Voir sur GitHub</a>
+        <button id="back-to-projects">Retour</button>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
