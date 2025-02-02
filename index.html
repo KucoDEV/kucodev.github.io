@@ -11,19 +11,21 @@
   <body>
     <nav class="menu" id="menu">
       <ul>
-        <li><a href="/">Accueil</a></li>
+        <li><a onclick="location.href='/'" href="#home" id="home">Accueil</a></li>
         <li><a href="#about" id="apropos">À propos de moi</a></li>
         <li><a href="#projects" id="projets">Mes Projets</a></li>
+        <li><a href="#services" id="serv">Services</a></li>
+        <li><a href="#contact" id="contct">Contact</a></li>
       </ul>
     </nav>
-    
+
     <canvas id="bg"></canvas>
-    <div class="content">
+    <div class="content" id="content">
       <h1 class="title">Bienvenue dans mon univers</h1>
       <p class="subtitle" id="welcome-subtitle">
         Découvrez des créations captivantes et innovantes
       </p>
-      <button id="explore">Explorer</button>
+      <button id="explore">🠗 Explorer</button>
     </div>
 
     <section class="section" id="about">
@@ -55,7 +57,7 @@
         </div>
       </div>
       <br />
-      <button id="continue">Découvrir mes projets</button>
+      <button id="continue">🠗 Mes projets</button>
     </section>
 
     <section class="section" id="projects">
@@ -74,14 +76,6 @@
             Pipeline complet pour la reconnaissance vocale automatique (ASR).
           </p>
         </div>
-        <div class="project-card" data-project="3">
-          <h3>Projet 3</h3>
-          <p>Mettre projet 3 ici...</p>
-        </div>
-        <div class="project-card" data-project="4">
-          <h3>Projet 4</h3>
-          <p>Mettre projet 4 ici...</p>
-        </div>
       </div>
       <div class="project-details" id="project-details">
         <h2 id="project-title">Détails du Projet</h2>
@@ -89,6 +83,80 @@
         <a id="project-link" href="#" target="_blank">Voir sur GitHub</a>
         <button id="back-to-projects">Retour</button>
       </div>
+      <button id="suivant">🠗 Mes services</button>
+    </section>
+
+    <section class="section" id="services">
+      <h1 class="title">Services & Compétences</h1>
+      <p class="subtitle">
+        Découvrez ce que je peux vous offrir pour vos projets !
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Développement Web</h3>
+          <p>
+            Création de sites et applications modernes, responsives et
+            performantes.
+          </p>
+          <ul>
+            <li>Sites vitrines</li>
+            <li>Applications interactives</li>
+            <li>Maintenance et optimisation</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Automatisation & Scripts</h3>
+          <p>Développement d’outils pour automatiser vos tâches répétitives.</p>
+          <ul>
+            <li>Création de bots personnalisés</li>
+            <li>Extraction et traitement de données</li>
+            <li>Gestion des flux de travail</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills-graph">
+        <h3>Mes Compétences Techniques</h3>
+        <div class="skill-bar">
+          <span>WEB</span>
+          <div class="progress" style="width: 90%"></div>
+        </div>
+        <div class="skill-bar">
+          <span>Python</span>
+          <div class="progress" style="width: 90%"></div>
+        </div>
+        <div class="skill-bar">
+          <span>C / C++ / C#</span>
+          <div class="progress" style="width: 85%"></div>
+        </div>
+        <div class="skill-bar">
+          <span>SQL</span>
+          <div class="progress" style="width: 80%"></div>
+        </div>
+      </div>
+      <button id="fin">🠗 Mes contacts</button>
+    </section>
+
+    <section class="section" id="contact">
+      <h1 class="title">Contact & Réseaux</h1>
+      <p>Vous pouvez me contacter via :</p>
+      <ul>
+        <li>
+          Email :
+          <a href="mailto:Matheo.PICHOT-MOISE@etu.uca.fr"
+            >Matheo.PICHOT-MOISE@etu.uca.fr</a
+          >
+        </li>
+        <li>LinkedIn : <a href="https://linkedin.com/">Mon profil</a></li>
+        <li>GitHub : <a href="https://github.com/KucoDEV">Mes projets</a></li>
+      </ul>
+      <form id="contact-form">
+        <input type="text" placeholder="Votre nom" required />
+        <input type="email" placeholder="Votre email" required />
+        <textarea placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+      <br />
+      <button onclick="location.href='/'">Retour à l'accueil</button>
     </section>
     <script src="script.js"></script>
   </body>
