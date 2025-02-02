@@ -175,3 +175,47 @@ document.getElementById("back-to-projects").addEventListener("click", () => {
     },
   });
 });
+
+document.getElementById("apropos").addEventListener("click", () => {
+  gsap.to(".content", {
+    opacity: 0,
+    y: -50,
+    duration: 1,
+    onComplete: () => {
+      document.getElementById("about").style.display = "block";
+      gsap.to("#about", { opacity: 1, duration: 1 });
+      animateSubtitles("#about");
+      animateSkills();
+    },
+  });
+  gsap.to(".projects", {
+    opacity: 0,
+    y: -50,
+    duration: 1,
+    onComplete: () => {
+      document.getElementById("projects").style.display = "none";
+    }
+  })
+});
+
+document.getElementById("projets").addEventListener("click", () => {
+  gsap.to(".content", {
+    opacity: 0,
+    y: -50,
+    duration: 1,
+    onComplete: () => {
+      document.getElementById("projects").style.display = "block";
+      gsap.to("#projects", { opacity: 1, duration: 1 });
+      animateSubtitles("#projects");
+      animateSkills();
+    },
+  });
+  gsap.to(".about", {
+    opacity: 0,
+    y: -50,
+    duration: 1,
+    onComplete: () => {
+      document.getElementById("about").style.display = "none";
+    }
+  })
+});

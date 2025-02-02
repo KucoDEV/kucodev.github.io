@@ -120,3 +120,52 @@ button:hover {
   transform: scale(1.05);
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
 }
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #0a0a0a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #ff0000;
+}
+
+.menu button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background: linear-gradient(145deg, #ff0055, #ff0000);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menu button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+}
