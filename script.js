@@ -1,4 +1,3 @@
-// Three.js Scene
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -13,10 +12,8 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
-const material = new THREE.MeshStandardMaterial({
-  color: 0xff0000,
-  wireframe: true,
-});
+const material = new THREE.MeshStandardMaterial({color: 0xff0000, wireframe: true,});
+
 const torus = new THREE.Mesh(geometry, material);
 scene.add(torus);
 
@@ -53,7 +50,6 @@ function animateSkills() {
   );
 }
 
-// Animate Welcome Subtitle on Load
 gsap.to("#welcome-subtitle", { opacity: 1, y: 0, duration: 1 });
 
 document.getElementById("explore").addEventListener("click", () => {
