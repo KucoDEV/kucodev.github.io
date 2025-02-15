@@ -2,7 +2,7 @@
 	"homepage": "https://kucodev.github.io/",
 	"name": "kucodev.github.io",
 	"version": "0.1.0",
-	"private": true,
+	"private": false,
 	"dependencies": {
 		"@emailjs/browser": "^3.7.0",
 		"@emotion/react": "^11.10.4",

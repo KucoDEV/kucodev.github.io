@@ -52,25 +52,25 @@ const NavbarBottom = () => {
           <BottomNavigationAction
             sx={{ color: "#ffffff" }}
             link={`${startLink}/`}
-            label="Home"
+            label="ACCUEIL"
             icon={<FaHome />}
           />
           <BottomNavigationAction
             sx={{ color: "#ffffff" }}
             link={`${startLink}/about`}
-            label="Abute Me"
+            label="À PROPOS DE MOI"
             icon={<FaUser />}
           />
           <BottomNavigationAction
             sx={{ color: "#ffffff" }}
             link={`${startLink}/Portfolio`}
-            label="Portfolio"
+            label="PROJETS"
             icon={<FaBriefcase />}
           />
           <BottomNavigationAction
             sx={{ color: "#ffffff" }}
             link={`${startLink}/contact`}
-            label="Contact"
+            label="CONTACT"
             icon={<FaEnvelopeOpen />}
           />
         </BottomNavigation>
