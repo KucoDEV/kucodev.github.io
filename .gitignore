@@ -23,8 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 test.txt
-/src/Components/About.jsx
 /src/Components/Contact.jsx
 /src/Components/ContactForm.jsx
-/src/Components/Experience.jsx
-/src/Components/Experience.jsx

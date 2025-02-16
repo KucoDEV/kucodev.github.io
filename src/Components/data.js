@@ -7,7 +7,6 @@ import {
   SiJavascript,
   SiReact,
   SiNodedotjs,
-  SiTailwindcss,
   SiCoursera,
   SiCplusplus,
   SiPostgresql,
@@ -44,9 +43,8 @@ export const skills = [
 
 export const skills2 = [
   { id: 301, title: "Bootstrap", icon: <FaBootstrap />, color: "#733DBE" },
-  { id: 303, title: "Tailwindcss", icon: <SiTailwindcss />, color: "#00bcff" },
-  { id: 304, title: "Github", icon: <FaGithub /> },
-  { id: 305, title: "Git", icon: <FaGitAlt />, color: "#DE4C36" },
+  { id: 302, title: "Github", icon: <FaGithub /> },
+  { id: 303, title: "Git", icon: <FaGitAlt />, color: "#DE4C36" },
 ];
 
 export const timelineData = [

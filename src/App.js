@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Home from './Components/Home';
+import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import NavbarBottom from './Components/NavbarBottom';
 import TogleTheme from './Components/TogleTheme';
@@ -42,6 +43,7 @@ function App() {
 
 			<Routes>
 				<Route path='/' element={<Home />} />
+				<Route path='/about' element={<About />} />
 				<Route path='/portfolio' element={<Portfolio />} />
 			</Routes>
 
