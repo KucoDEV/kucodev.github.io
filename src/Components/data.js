@@ -1,4 +1,9 @@
-import placeholder from "../Images/Projects/placeholder.png";
+import mybox from "../Images/Projects/mybox.png";
+import keywins from "../Images/Projects/keywins.png";
+import oratis_website from "../Images/Projects/oratis_website.png";
+import portfolio from "../Images/Projects/portfolio.png";
+import oratisai from "../Images/Projects/oratisai.png";
+import butprojets from "../Images/Projects/butprojets.png";
 
 import {
   FaGitAlt, 
@@ -77,7 +82,7 @@ export const myProjects = [
     id: 1,
     title: "Portfolio",
     link: "https://www.matheo-pichotmoise.fr",
-    img: placeholder,
+    img: portfolio,
     githubLink: "https://github.com/KucoDEV/kucodev.github.io",
     Language: ["HTML", "CSS", "JavaScript", "React"],
     description:
@@ -87,7 +92,7 @@ export const myProjects = [
     id: 2,
     title: "[ 📦 My Box ]",
     link: "/",
-    img: placeholder,
+    img: mybox,
     githubLink: "https://github.com/KucoDEV/MyBox",
     Language: ["HTML", "CSS", "JavaScript", "Python"],
     description:
@@ -97,7 +102,7 @@ export const myProjects = [
     id: 3,
     title: "OratisAI",
     link: "/",
-    img: placeholder,
+    img: oratisai,
     githubLink: "https://github.com/KucoDEV/OratisAI",
     Language: ["Python"],
     description:
@@ -107,7 +112,7 @@ export const myProjects = [
     id: 4,
     title: "BUT-Projets",
     link: "/",
-    img: placeholder,
+    img: butprojets,
     githubLink: "https://github.com/KucoDEV/BUT-Projets",
     Language: ["C"],
     description:
@@ -117,7 +122,7 @@ export const myProjects = [
     id: 5,
     title: "KeyWins",
     link: "/",
-    img: placeholder,
+    img: keywins,
     githubLink: "https://github.com/KucoDEV/KeyWins",
     Language: ["HTML", "CSS", "JavaScript"],
     description:
@@ -127,7 +132,7 @@ export const myProjects = [
     id: 6,
     title: "Site Oratis",
     link: "/",
-    img: placeholder,
+    img: oratis_website,
     githubLink: "https://github.com/OratisDEV/oratisdev.github.io",
     Language: ["HTML", "CSS"],
     description:
