@@ -15,7 +15,7 @@ import myImage3 from "../Images/03.png";
 
 import { myPersonalInfo, skills, skills2 } from "./data";
 // import {LinearWithLabel} from './ProgressWithLabel'
-import Experience from "./Experience";
+import Parcours from "./Parcours";
 import { FiDownload } from "react-icons/fi";
 
 import "../Styles/index.css";
@@ -289,8 +289,8 @@ export default function About() {
 
       <Divider sx={{ bgcolor: "gray", width: "50%", mx: "auto", my: 4 }} />
 
-      {/* Experience component ------------------------------------- */}
-      <Experience />
+      {/* Parcours component ------------------------------------- */}
+      <Parcours />
     </Container>
   );
 }

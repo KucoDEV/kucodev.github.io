@@ -13,7 +13,7 @@ import {
 import "animate.css";
 import { timelineData } from "./data";
 
-export default function Experience() {
+export default function Parcours() {
   return (
     <Fragment>
       <Typography
@@ -22,7 +22,7 @@ export default function Experience() {
         fontWeight={700}
         mb={2}
       >
-        Experience :
+        Parcours :
       </Typography>
 
       <Timeline

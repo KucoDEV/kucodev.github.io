@@ -1,6 +1,10 @@
-import placeholder from '../Images/Projects/placeholder.png';
+import placeholder from "../Images/Projects/placeholder.png";
 
-import { FaBootstrap, FaGitAlt, FaGithub, FaLaptopCode } from "react-icons/fa";
+import {
+  FaGitAlt, 
+  FaGithub
+} from "react-icons/fa";
+
 import {
   SiHtml5,
   SiCss3,
@@ -12,8 +16,13 @@ import {
   SiPostgresql,
   SiPython,
   SiPhp,
+  SiOvh,
+  SiReplit
 } from "react-icons/si";
-import { GiOpenBook } from "react-icons/gi";
+
+import { 
+  GiOpenBook 
+} from "react-icons/gi";
 
 export const startLink = "";
 
@@ -33,27 +42,22 @@ export const skills = [
   { id: 202, title: "CSS", icon: <SiCss3 />, color: "#007FFF" },
   { id: 203, title: "JavaScript", icon: <SiJavascript />, color: "#EAD41C" },
   { id: 204, title: "React", icon: <SiReact />, color: "#00CEF2" },
-  { id: 205, title: "Node.js", icon: <SiNodedotjs />, color: "#5CA74B" },
-  { id: 206, title: "Python", icon: <SiPython />, color: "#306998" },
   { id: 207, title: "C", icon: <SiCoursera />, color: "#2A73CC" },
   { id: 208, title: "C++", icon: <SiCplusplus />, color: "#00599C" },
+  { id: 205, title: "Node.js", icon: <SiNodedotjs />, color: "#5CA74B" },
+  { id: 206, title: "Python", icon: <SiPython />, color: "#306998" },
   { id: 209, title: "PSQL", icon: <SiPostgresql />, color: "#336791" },
   { id: 210, title: "PHP", icon: <SiPhp />, color: "#8993BE" },
 ];
 
 export const skills2 = [
-  { id: 301, title: "Bootstrap", icon: <FaBootstrap />, color: "#733DBE" },
-  { id: 302, title: "Github", icon: <FaGithub /> },
-  { id: 303, title: "Git", icon: <FaGitAlt />, color: "#DE4C36" },
+  { id: 301, title: "Github", icon: <FaGithub /> },
+  { id: 302, title: "Git", icon: <FaGitAlt />, color: "#DE4C36" },
+  { id: 303, title: "OVH", icon: <SiOvh />, color: "#2A73CC" },
+  { id: 304, title: "Replit", icon: <SiReplit />, color: "#e56229" },
 ];
 
 export const timelineData = [
-  {
-    date: "2022 - Aujourd’hui",
-    title: "Développelment",
-    organization: "Freelance",
-    icon: <FaLaptopCode />,
-  },
   {
     date: "Septembre 2024 - Aujourd’hui",
     title: "Etudiant BUT Informatique",
