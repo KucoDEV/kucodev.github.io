@@ -74,15 +74,15 @@ portfolio/
    ```bash
    npm start
    ```
-4. Accéder à `http://localhost:3000` dans votre navigateur.
+4. Accéder à (`http://localhost:3000`)[http://localhost:3000] dans votre navigateur.
 
 ## 🚢 Déploiement sur GitHub Pages
 
 1. Assurez-vous que `gh-pages` est bien installé et que les scripts suivants sont déjà ajoutés dans `package.json` :
    ```json
    "scripts": {
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
    }
    ```
 

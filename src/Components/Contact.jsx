@@ -3,11 +3,7 @@ import { Container, Grid, Link, Typography } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 
 import { FaMap, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
-import {
-  FaLinkedinIn,
-  FaWhatsapp,
-  FaGithub,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp, FaGithub } from "react-icons/fa";
 import "../Styles/Contact.css";
 import ContactForm from "./ContactForm";
 

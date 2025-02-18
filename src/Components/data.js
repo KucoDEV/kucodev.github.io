@@ -5,10 +5,7 @@ import portfolio from "../Images/Projects/portfolio.png";
 import oratisai from "../Images/Projects/oratisai.png";
 import butprojets from "../Images/Projects/butprojets.png";
 
-import {
-  FaGitAlt, 
-  FaGithub
-} from "react-icons/fa";
+import { FaGitAlt, FaGithub } from "react-icons/fa";
 
 import {
   SiHtml5,
@@ -22,12 +19,10 @@ import {
   SiPython,
   SiPhp,
   SiOvh,
-  SiReplit
+  SiReplit,
 } from "react-icons/si";
 
-import { 
-  GiOpenBook 
-} from "react-icons/gi";
+import { GiOpenBook } from "react-icons/gi";
 
 export const startLink = "";
 
