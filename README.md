@@ -96,4 +96,8 @@ portfolio/
    - Accéder à la section **Pages**.
    - Vérifier que la branche `gh-pages` est bien sélectionnée comme source de déploiement.
 
-## Licence
+## 📜 Licence
+
+Ce projet est sous licence **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International**.  
+Vous êtes libre de partager le contenu, mais **vous ne pouvez ni le modifier, ni l'utiliser à des fins commerciales**.  
+Plus d’informations : [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
