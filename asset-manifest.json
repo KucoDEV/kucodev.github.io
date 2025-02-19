@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.948e4d3c.css",
-    "main.js": "/static/js/main.a7f29ea1.js",
+    "main.js": "/static/js/main.07b2ec10.js",
     "static/media/keywins.png": "/static/media/keywins.426da1cca21ba80862fe.png",
     "static/media/oratis_website.png": "/static/media/oratis_website.2840f723aa1a1b5d47c6.png",
     "static/media/portfolio.png": "/static/media/portfolio.2219431552b63cc1cf2b.png",
@@ -12,10 +12,10 @@
     "static/media/01.png": "/static/media/01.fad0bf8d3188e6c1929e.png",
     "index.html": "/index.html",
     "main.948e4d3c.css.map": "/static/css/main.948e4d3c.css.map",
-    "main.a7f29ea1.js.map": "/static/js/main.a7f29ea1.js.map"
+    "main.07b2ec10.js.map": "/static/js/main.07b2ec10.js.map"
   },
   "entrypoints": [
     "static/css/main.948e4d3c.css",
-    "static/js/main.a7f29ea1.js"
+    "static/js/main.07b2ec10.js"
   ]
 }
