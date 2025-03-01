@@ -86,7 +86,6 @@ export const myProjects = [
   {
     id: 2,
     title: "[ 📦 My Box ]",
-    link: "/",
     img: mybox,
     githubLink: "https://github.com/KucoDEV/MyBox",
     Language: ["HTML", "CSS", "JavaScript", "Python"],
@@ -96,7 +95,6 @@ export const myProjects = [
   {
     id: 3,
     title: "OratisAI",
-    link: "/",
     img: oratisai,
     githubLink: "https://github.com/KucoDEV/OratisAI",
     Language: ["Python"],
@@ -106,7 +104,6 @@ export const myProjects = [
   {
     id: 4,
     title: "BUT-Projets",
-    link: "/",
     img: butprojets,
     githubLink: "https://github.com/KucoDEV/BUT-Projets",
     Language: ["C"],
@@ -116,7 +113,6 @@ export const myProjects = [
   {
     id: 5,
     title: "KeyWins",
-    link: "/",
     img: keywins,
     githubLink: "https://github.com/KucoDEV/KeyWins",
     Language: ["HTML", "CSS", "JavaScript"],
@@ -126,7 +122,7 @@ export const myProjects = [
   {
     id: 6,
     title: "Site Oratis",
-    link: "/",
+    link: "https://www.oratis.fr",
     img: oratis_website,
     githubLink: "https://github.com/OratisDEV/oratisdev.github.io",
     Language: ["HTML", "CSS"],

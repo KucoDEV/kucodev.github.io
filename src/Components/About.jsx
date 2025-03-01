@@ -14,7 +14,6 @@ import myImage2 from "../Images/02.png";
 import myImage3 from "../Images/03.png";
 
 import { myPersonalInfo, skills, skills2 } from "./data";
-// import {LinearWithLabel} from './ProgressWithLabel'
 import Parcours from "./Parcours";
 import { FiDownload } from "react-icons/fi";
 
