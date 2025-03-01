@@ -6,7 +6,6 @@ import {
   Slide,
   Snackbar,
   TextField,
-  Typography,
 } from "@mui/material";
 
 import { IoPaperPlane } from "react-icons/io5";
@@ -49,11 +48,6 @@ export default function ContactForm() {
         sx={{ display: "flex", flexDirection: "column" }}
         className="animate__animated animate__pulse"
       >
-        <Typography variant="h6" ml={{ lg: 8 }} mb={2} mt={{ xs: 8, lg: 0 }}>
-          {" "}
-          Envoyez moi un message:{" "}
-        </Typography>
-
         <Box
           component="form"
           ref={form}
