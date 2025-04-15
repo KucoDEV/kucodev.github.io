@@ -106,11 +106,7 @@ export const Home = () => {
                   px={{ xs: 2, md: 10 }}
                   className="animate__animated animate__fadeIn"
                 >
-                  Je suis un développeur français passionné par la programmation
-                  et les nouvelles technologies qui nous entoure.
-                  <br></br>
-                  Je suis actuellement en formation à l'IUT de Clermont-Ferrand
-                  pour devenir développeur web.
+                  Je suis Mathéo PICHOT-MOÏSE étudiant en BUT Informatique à l’IUT de Clermont-Ferrand. Grand joueur d’échecs, ce jeu me permet de développer ma capacité à réfléchir de manière logique, à anticiper et à rester concentré pendant de longues périodes de temps. Je suis aussi quelqu’un d’autonome notamment grâce à mes expériences professionnelles pendant des travaux saisonniers, où j’ai appris à m’adapter rapidement aux tâches demandées.
                 </Typography>
 
                 <Box

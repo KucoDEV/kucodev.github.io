@@ -1,5 +1,5 @@
 import mybox from "../Images/Projects/mybox.png";
-import keywins from "../Images/Projects/keywins.png";
+import sae101 from "../Images/Projects/sae101.png";
 import oratis_website from "../Images/Projects/oratis_website.png";
 import portfolio from "../Images/Projects/portfolio.png";
 import oratisai from "../Images/Projects/oratisai.png";
@@ -73,8 +73,20 @@ export const timelineData = [
 ];
 
 export const myProjects = [
+
   {
     id: 1,
+    title: "SAE 1.01",
+    img: sae101,
+    githubLink: "https://codefirst.iut.uca.fr/git/matheo.pichot-moise/sae1-01",
+    Language: ["C", "TXT"],
+    description:
+        "Le projet, réalisé sur une période d’un mois et en binôme, consistait à créer une application en ligne de commande pour gérer des stages. L'objectif était de gérer trois types d'utilisateurs : les étudiants, les responsables de stages et les jurys, tout en sauvegardant les fichiers à chaque modification.\n" +
+        " Je me suis principalement occupé de la gestion des étudiants, en veillant à ce que toutes les informations des étudiants soient correctement saisies, mises à jour et sauvegardées. J'ai également développé le système de sauvegarde, en assurant la persistance des données entre les sessions. \n" +
+        "J’ai apporté à mon binôme une gestion du projet efficace, notamment par l’utilisation de Code#0 pour centraliser le code, ainsi que des réunions régulières (physiques ou en ligne) sur notre avancée, ce qui nous a permis de terminer ce projet dans les temps et dans de bonnes conditions.",
+  },
+  {
+    id: 2,
     title: "Portfolio",
     link: "https://www.matheo-pichotmoise.fr",
     img: portfolio,
@@ -84,7 +96,7 @@ export const myProjects = [
       "Ce projet est une vitrine de mes compétences, projets et services en tant que développeur passionné par les expériences interactives et le design innovant.",
   },
   {
-    id: 2,
+    id: 3,
     title: "[ 📦 My Box ]",
     img: mybox,
     githubLink: "https://github.com/KucoDEV/MyBox",
@@ -93,7 +105,7 @@ export const myProjects = [
       "[ 📦 My Box ] est une application Web qui permet aux utilisateurs de créer, enregistrer et consulter leurs notes en ligne. Ce projet est conçu pour offrir une expérience fluide et minimaliste avec un éditeur Markdown et une interface moderne.",
   },
   {
-    id: 3,
+    id: 4,
     title: "OratisAI",
     img: oratisai,
     githubLink: "https://github.com/KucoDEV/OratisAI",
@@ -102,22 +114,13 @@ export const myProjects = [
       "ORATIS est un pipeline complet pour la reconnaissance vocale automatique (ASR). Le projet implémente les étapes clés nécessaires pour convertir des fichiers audio en texte. ",
   },
   {
-    id: 4,
+    id: 5,
     title: "BUT-Projets",
     img: butprojets,
     githubLink: "https://github.com/KucoDEV/BUT-Projets",
     Language: ["C"],
     description:
       "Le dossier BUT-Project, qui contient différents projets réalisés dans le cadre de mes études en Informatique BUT. Chaque projet est stocké dans un sous-dossier et comprend sa propre documentation et les fichiers sources nécessaires.",
-  },
-  {
-    id: 5,
-    title: "KeyWins",
-    img: keywins,
-    githubLink: "https://github.com/KucoDEV/KeyWins",
-    Language: ["HTML", "CSS", "JavaScript"],
-    description:
-      "KeyWins est une extension de navigateur conçue pour automatiser la participation aux batailles de case gratuites sur Key-Drop.com. Il comprend une interface utilisateur intuitive pour configurer les préférences et gérer l'automatisation.",
   },
   {
     id: 6,
