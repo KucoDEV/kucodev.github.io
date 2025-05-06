@@ -79,7 +79,7 @@ export const myProjects = [
     title: "SAE 1.01",
     img: sae101,
     githubLink: "https://codefirst.iut.uca.fr/git/matheo.pichot-moise/sae1-01",
-    Language: ["C", "TXT"],
+    Language: ["C", "Doxygen"],
     description:
         "Le projet, réalisé sur une période d’un mois et en binôme, consistait à créer une application en ligne de commande pour gérer des stages. L'objectif était de gérer trois types d'utilisateurs : les étudiants, les responsables de stages et les jurys, tout en sauvegardant les fichiers à chaque modification.\n" +
         " Je me suis principalement occupé de la gestion des étudiants, en veillant à ce que toutes les informations des étudiants soient correctement saisies, mises à jour et sauvegardées. J'ai également développé le système de sauvegarde, en assurant la persistance des données entre les sessions. \n" +
