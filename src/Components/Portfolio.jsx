@@ -64,61 +64,7 @@ export default function Projects() {
           </Typography>
         </Stack>
 
-        <Stack
-          direction="row"
-          gap={{ xs: 2, md: 4 }}
-          justifyContent="center"
-          mt={10}
-          mb={4}
-        >
-          <Typography
-            className={`project-type ${
-              filtertype === "All" && "project-type-active"
-            }`}
-            onClick={() => {
-              setRepos(myProjects);
-              setFiltertype("All");
-            }}
-          >
-            All
-          </Typography>
-
-          <Typography
-            className={`project-type ${
-              filtertype === "HTML" && "project-type-active"
-            }`}
-            onClick={() => {
-              setRepos(
-                myProjects.filter(
-                  (e) => !e.Language.includes("Javascript", "React")
-                )
-              );
-              setFiltertype("HTML");
-            }}
-          >
-            HTML
-          </Typography>
-
-          <Typography
-            className={`project-type ${
-              filtertype === "Python" && "project-type-active"
-            }`}
-            value="Python"
-            onClick={(e) => handelFilter(e)}
-          >
-            Python
-          </Typography>
-
-          <Typography
-            className={`project-type ${
-              filtertype === "C" && "project-type-active"
-            }`}
-            value="C"
-            onClick={(e) => handelFilter(e)}
-          >
-            C
-          </Typography>
-        </Stack>
+        
 
         <Grid
           container

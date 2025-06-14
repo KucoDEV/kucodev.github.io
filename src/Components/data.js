@@ -1,9 +1,9 @@
 import mybox from "../Images/Projects/mybox.png";
 import sae101 from "../Images/Projects/sae101.png";
 import oratis_website from "../Images/Projects/oratis_website.png";
-import portfolio from "../Images/Projects/portfolio.png";
+import streamit from "../Images/Projects/streamit.png";
 import oratisai from "../Images/Projects/oratisai.png";
-import butprojets from "../Images/Projects/butprojets.png";
+import inout from "../Images/Projects/inout.png";
 
 import { FaGitAlt, FaGithub } from "react-icons/fa";
 
@@ -78,7 +78,7 @@ export const myProjects = [
     id: 1,
     title: "SAE 1.01",
     img: sae101,
-    githubLink: "https://codefirst.iut.uca.fr/git/matheo.pichot-moise/sae1-01",
+    githubLink: "https://github.com/KucoDEV/BUT_1A_SAE1.01",
     Language: ["C", "Doxygen"],
     description:
         "Le projet, réalisé sur une période d’un mois et en binôme, consistait à créer une application en ligne de commande pour gérer des stages. L'objectif était de gérer trois types d'utilisateurs : les étudiants, les responsables de stages et les jurys, tout en sauvegardant les fichiers à chaque modification.\n" +
@@ -87,13 +87,13 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Portfolio",
-    link: "https://www.matheo-pichotmoise.fr",
-    img: portfolio,
-    githubLink: "https://github.com/KucoDEV/kucodev.github.io",
-    Language: ["HTML", "CSS", "JavaScript", "React"],
+    title: "StreamIt",
+    link: "https://www.matheo-pichotmoise.fr/StreamIt",
+    img: streamit,
+    githubLink: "https://github.com/KucoDEV/StreamIt",
+    Language: ["HTML", "CSS", "JavaScript"],
     description:
-      "Ce projet est une vitrine de mes compétences, projets et services en tant que développeur passionné par les expériences interactives et le design innovant.",
+      "StreamIt propose une expérience de streaming fluide avec un accès direct aux épisodes et à leurs informations. L'application est conçue pour être simple et intuitive, permettant aux utilisateurs de naviguer facilement entre les séries et les épisodes.",
   },
   {
     id: 3,
@@ -115,12 +115,12 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "BUT-Projets",
-    img: butprojets,
-    githubLink: "https://github.com/KucoDEV/BUT-Projets",
-    Language: ["C"],
+    title: "InOut",
+    img: inout,
+    githubLink: "https://github.com/KucoDEV/InOut",
+    Language: ["Bash"],
     description:
-      "Le dossier BUT-Project, qui contient différents projets réalisés dans le cadre de mes études en Informatique BUT. Chaque projet est stocké dans un sous-dossier et comprend sa propre documentation et les fichiers sources nécessaires.",
+      "Ce projet transforme l'apparence de votre environnement Linux pour le faire ressembler à Windows 10, facilitant ainsi la discrétion dans certains contextes. Il est conçu pour être utilisé dans des environnements où l'apparence de Windows est requise, comme dans les salles de classe ou les espaces de travail.",
   },
   {
     id: 6,
