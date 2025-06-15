@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.948e4d3c.css",
-    "main.js": "/static/js/main.73e52a05.js",
-    "static/media/butprojets.png": "/static/media/butprojets.47ac9c0d25af9f41c648.png",
-    "static/media/portfolio.png": "/static/media/portfolio.41ac3d9579b613876176.png",
+    "main.css": "/static/css/main.27879744.css",
+    "main.js": "/static/js/main.4ab5c892.js",
+    "static/media/streamit.png": "/static/media/streamit.f411eb193d4110e64c68.png",
+    "static/media/01.png": "/static/media/01.ce24d56b0c965fa53a3a.png",
+    "static/media/02.png": "/static/media/02.ce24d56b0c965fa53a3a.png",
+    "static/media/inout.png": "/static/media/inout.720cd916a513090a810e.png",
     "static/media/oratis_website.png": "/static/media/oratis_website.d37dbd42a48b61258966.png",
     "static/media/oratisai.png": "/static/media/oratisai.591a1af12134d17db0bf.png",
     "static/media/mybox.png": "/static/media/mybox.7b00327ab896b3b01a8f.png",
-    "static/media/02.png": "/static/media/02.e662b200a966d0f0f560.png",
-    "static/media/01.png": "/static/media/01.fad0bf8d3188e6c1929e.png",
     "index.html": "/index.html",
-    "main.948e4d3c.css.map": "/static/css/main.948e4d3c.css.map",
-    "main.73e52a05.js.map": "/static/js/main.73e52a05.js.map"
+    "main.27879744.css.map": "/static/css/main.27879744.css.map",
+    "main.4ab5c892.js.map": "/static/js/main.4ab5c892.js.map"
   },
   "entrypoints": [
-    "static/css/main.948e4d3c.css",
-    "static/js/main.73e52a05.js"
+    "static/css/main.27879744.css",
+    "static/js/main.4ab5c892.js"
   ]
 }
